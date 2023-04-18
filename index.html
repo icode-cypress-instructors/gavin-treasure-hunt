@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Treasure Hunt</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap" rel="stylesheet">
+	<script src="./index.js" defer></script>
+</head>
+
+<body>
+	<div class="images">
+		<!-- <img src="./images/better boat.jpg">  -->
+		<h1 class="title">Treasure Hunt Escape Room</h1>
+
+		<div class="challenge" id="map">
+			<input type="text" id="map-answer" name="map-answer" disabled>
+			<a href="./map-page.html" target="_blank">
+				<img src="./images/map.png" alt="" class="map">
+			</a>
+		</div>
+
+		<div class="challenge" id="boat">
+			<input type="text" id="boat-answer" name="boat-answer" disabled>
+			<a href="./boat-page.html" target="_blank">
+				<img src="./images/ship.png" alt="" class="boat">
+			</a>
+		</div>
+
+		<div class="challenge" id="coin">
+			<input type="text" id="coin-answer" name="coin-answer" disabled>
+			<a href="./coin-page.html" target="_blank">
+				<img src="./images/coins.png" alt="" class="coins">
+			</a>
+		</div>
+
+		<img src="./images/treasure.png" alt="" class="treasure" id="treasure" hidden>
+
+
+		<div class="sand"></div>
+	</div>
+</body>
+
+</html>
